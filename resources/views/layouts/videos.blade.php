@@ -3,7 +3,7 @@
  <div class="col-md-8">
  	<div class="box box-primary text-center">
       <div class="box-header with-border">
-        <h3 class="box-title">Genres</h3>
+        <h3 class="box-title">Videos</h3>
       </div>
       <!-- /.box-header -->
 

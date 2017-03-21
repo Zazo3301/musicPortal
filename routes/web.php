@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('layouts.home');
 });
 
-Route::get('genres/{genrename?}', function ($genrename = null) {
-	return view('layouts.genres');
+Route::get('videos/{genrename?}', function ($genrename = null) {
+	return view('layouts.videos');
 });
 
 
