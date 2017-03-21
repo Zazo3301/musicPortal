@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title> Lyrix|</title>
+  <title> MusiX</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -33,7 +33,7 @@
     <nav class="navbar navbar-static-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="#" class="navbar-brand"><b>Lyri</b>X</a>
+          <a href="#" class="navbar-brand"><b>Music</b>X</a>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
             <i class="fa fa-bars"></i>
           </button>
@@ -45,7 +45,22 @@
             <li class="active"><a href="#">Homepage <span class="sr-only">(current)</span></a></li>
             <li><a href="/lyrics">Lyrics</a></li>
             <li><a href="/genres">Genres</a></li>
-            <li><a href="/news">News</a></li>
+            <li><a href="/news">News</a>
+<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Music <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Artists</a></li>
+                <li><a href="#">All Songs</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+
+
+            </li>
 
             <li><a href="/contact">Contact</a></li>
             <li><a href="/admin">admin menu</a></li>       
