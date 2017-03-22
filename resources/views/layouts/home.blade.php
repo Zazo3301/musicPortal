@@ -1,6 +1,6 @@
   @include('layouts._header')
 
- <div class="col-md-3">
+  <div class="col-md-3">
     <div class="box box-primary">
       <div class="box-header with-border">
         <h3 class="box-title">Categories</h3>
@@ -14,8 +14,8 @@
       </div>
       <!-- /.box-header -->
       <div class="box-body no-padding">
-        
-       
+
+
       </div>
       <!-- /.box-body -->
       <div class="box-footer text-center">
@@ -93,62 +93,129 @@
     <!-- /.row -->
   </div>
   <!-- /.box -->
+
   <div class="col-md-7">
-    <div class="box box-primary">
-      <div class="box-header with-border">
-        <h3 class="box-title">Latest Lyrics</h3>
-         <div class="box-tools pull-right">
+    <div class="row">
+      <div class="col-md-8">  
+        <div class="box box-primary">
+          <div class="box-header with-border">
+            <h3 class="box-title">Latest Music</h3>
+            <div class="box-tools pull-right">
+              <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+              </button>
+              <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="box-body table-responsive no-padding">
+            <table class="table table-hover">
+              <tr>
+                <th>Artist</th>
+                <th>Song Name</th>
+                <th>Stats</th>
+                <th>Actions</th>
+              </tr>
+              <tr>
+                <td>Ariana Grande</td>
+                <td>John Doe</td>
+                <td>11-7-2014</td>
+                <td><span class="label label-success">Approved</span></td>
+              </tr>
+              <tr>
+                <td>219</td>
+                <td>Alexander Pierce</td>
+                <td>11-7-2014</td>
+                <td><span class="label label-warning">Pending</span></td>
+              </tr>
+              <tr>
+                <td>657</td>
+                <td>Bob Doe</td>
+                <td>11-7-2014</td>
+                <td><span class="label label-primary">Approved</span></td>
+              </tr>
+              <tr>
+                <td>175</td>
+                <td>Mike Doe</td>
+                <td>11-7-2014</td>
+                <td><span class="label label-danger">Denied</span></td>
+              </tr>
+            </table>
+          </div>
+          <!-- /.box-body -->
+        </div>
+      </div>
+
+
+
+      <div class="col-md-4">
+        <div class="box box-primary">
+          <div class="box-header with-border">
+            <h3 class="box-title">Top Songs</h3>
+            <div class="box-tools pull-right">
+              <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+              </button>
+              <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i>
+              </button>
+            </div>
+          </div>
+          <div class="box-body box-profile">
+            Test
+          </div>
+
+          <!-- /.box-body -->
+
+        </div>
+      </div>
+    </div>
+  </div> <!--Closing Mid Content ( col-md-7)-->
+
+  <div class="row">
+    <div class="col-md-2">
+      <div class="box box-primary">
+       <div class="box-header with-border">
+        <h3 class="box-title">Login</h3>
+        <div class="box-tools pull-right">
           <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
           </button>
           <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i>
           </button>
         </div>
       </div>
+      <div class="box-body box-profile">
+        <p class="login-box-msg">(hidden if logged ) Sign in to start your session</p>
 
-      <div class="box-body table-responsive no-padding">
-        <table class="table table-hover">
-          <tr>
-            <th>Artist</th>
-            <th>Song Name</th>
-            <th>Stats</th>
-            <th>Actions</th>
-          </tr>
-          <tr>
-            <td>Ariana Grande</td>
-            <td>John Doe</td>
-            <td>11-7-2014</td>
-            <td><span class="label label-success">Approved</span></td>
-          </tr>
-          <tr>
-            <td>219</td>
-            <td>Alexander Pierce</td>
-            <td>11-7-2014</td>
-            <td><span class="label label-warning">Pending</span></td>
-          </tr>
-          <tr>
-            <td>657</td>
-            <td>Bob Doe</td>
-            <td>11-7-2014</td>
-            <td><span class="label label-primary">Approved</span></td>
-          </tr>
-          <tr>
-            <td>175</td>
-            <td>Mike Doe</td>
-            <td>11-7-2014</td>
-            <td><span class="label label-danger">Denied</span></td>
-          </tr>
-        </table>
+        <form action="" method="post">
+          <div class="form-group has-feedback">
+            <input type="email" class="form-control" placeholder="Email">
+            <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+          </div>
+          <div class="form-group has-feedback">
+            <input type="password" class="form-control" placeholder="Password">
+            <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+          </div>
+
+
+          <div class="checkbox icheck">
+            <label>
+              <input type="checkbox"> Remember Me
+            </label>
+          </div>
+
+          <!-- /.col -->
+
+          <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+
+          <!-- /.col -->
+
+        </form>
       </div>
       <!-- /.box-body -->
-
-    </div>
-
-  </div>
-  <div class="col-md-2">
-    <div class="box box-primary">
-     <div class="box-header with-border">
+      </div>
+      <div class="box box-primary">
+       <div class="box-header with-border">
         <h3 class="box-title">Profile</h3>
-         <div class="box-tools pull-right">
+        <div class="box-tools pull-right">
           <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
           </button>
           <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i>
@@ -157,7 +224,7 @@
       </div>
       <div class="box-body box-profile">
         <img class="profile-user-img img-responsive img-circle" src="../../dist/img/user4-128x128.jpg" alt="User profile picture">
-        
+
         <h3 class="profile-username text-center">Admin</h3>
 
         <p class="text-muted text-center">Role: Admin</p>
@@ -176,12 +243,14 @@
      </div>
      <!-- /.box-body -->
    </div>
-   <!-- /.box -->
-   <!-- /.box -->
- </div>
- <div class="col-md-4">
 
  </div>
+ <!-- /.box -->
+ <!-- /.box -->
+</div>
+<div class="col-md-4">
+
+</div>
 </section>
 <!-- /.content -->
 </div>

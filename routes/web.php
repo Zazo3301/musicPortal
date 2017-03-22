@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('layouts.home');
 });
 
+Route::get('profile/{id?}', function ($id = null) {
+	return view('layouts.profile');
+});
+
+
 Route::get('videos/{genrename?}', function ($genrename = null) {
 	return view('layouts.videos');
 });

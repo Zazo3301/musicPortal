@@ -4,6 +4,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title> MusiX</title>
+  <style>
+    .margin-icon {
+      padding-right:5px;
+    }
+
+  </style>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -33,7 +39,7 @@
       <nav class="navbar navbar-static-top">
         <div class="container">
           <div class="navbar-header">
-            <a href="{{URL::to('/')}}" class="navbar-brand"><b>Music</b>X</a>
+            <a href="{{URL::to('/')}}" class="navbar-brand"><b>Musi</b>X</a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
               <i class="fa fa-bars"></i>
             </button>
@@ -42,27 +48,27 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
             <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle " data-toggle="dropdown"><i class="fa fa-music fa-fw margin-icon" aria-hidden="true"></i>Music <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Artists</a></li>
+                  <li><a href="#">All Songs</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
 
-              <li><a href="/lyrics">Lyrics</a></li>
-              <li><a href="/videos">Videos</a></li>
-              <li><a href="/news">News</a>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle " data-toggle="dropdown">Music <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Artists</a></li>
-                    <li><a href="#">All Songs</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
+              <li><a href="/lyrics"><i class="fa fa-file-text-o fa-fw margin-icon" aria-hidden="true"></i>Lyrics</a></li>
+              <li><a href="/videos"><i class="fa fa-video-camera fa-fw margin-icon" aria-hidden="true"></i>Videos</a></li>
+              <li><a href="/news"><i class="fa fa-newspaper-o fa-fw margin-icon" aria-hidden="true"></i>News</a>
 
 
               </li>
 
-              <li><a href="/contact">Contact</a></li>
+              <li><a href="/contact"><i class="fa fa-envelope-o fa-fw margin-icon" aria-hidden="true"></i>Contact</a></li>
               <li><a href="/admin">admin menu</a></li>       
 
             </ul>
@@ -110,7 +116,7 @@
                 </ul>
                 <li class="dropdown notifications-menu">
                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                <i class="fa fa-cog fa-spin fa-1x fa-fw"></i><span>Layout</span>
+                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i><span>Layout</span>
                   <span class="label label-warning">7</span>
                 </a>
 
