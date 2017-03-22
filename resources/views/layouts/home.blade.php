@@ -1,36 +1,33 @@
   @include('layouts._header')
 
- <div class="col-md-4">
+ <div class="col-md-3">
     <div class="box box-primary">
       <div class="box-header with-border">
-        <h3 class="box-title">Genres</h3>
+        <h3 class="box-title">Categories</h3>
+
+        <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+          </button>
+          <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i>
+          </button>
+        </div>
       </div>
       <!-- /.box-header -->
-<a class="btn btn-app">
-        <i class="fa fa-music"></i> Hip Hop
-      </a>
-      <a class="btn btn-app">
-        <i class="fa fa-music"></i> Hip Hop
-      </a>
-      <a class="btn btn-app">
-        <i class="fa fa-music"></i> Hip Hop
-      </a>
-      <a class="btn btn-app">
-        <i class="fa fa-music"></i> Hip Hop
-      </a>
-      <a class="btn btn-app">
-        <i class="fa fa-music"></i> Hip Hop
-      </a>
-      <a class="btn btn-app">
-        <i class="fa fa-music"></i> Hip Hop
-      </a>
+      <div class="box-body no-padding">
+        
+       
+      </div>
+      <!-- /.box-body -->
+      <div class="box-footer text-center">
+        <a href="javascript:void(0)" class="uppercase">View All Categories</a>
+      </div>
+      <!-- /.box-footer -->
     </div>
     <div class="box box-primary">
       <div class="box-header with-border">
         <h3 class="box-title">Latest Members</h3>
 
         <div class="box-tools pull-right">
-          <span class="label label-danger">8 New Members</span>
           <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
           </button>
           <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i>
@@ -96,10 +93,16 @@
     <!-- /.row -->
   </div>
   <!-- /.box -->
-  <div class="col-md-6">
+  <div class="col-md-7">
     <div class="box box-primary">
       <div class="box-header with-border">
         <h3 class="box-title">Latest Lyrics</h3>
+         <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+          </button>
+          <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i>
+          </button>
+        </div>
       </div>
 
       <div class="box-body table-responsive no-padding">
@@ -108,10 +111,10 @@
             <th>Artist</th>
             <th>Song Name</th>
             <th>Stats</th>
-            <th>Date</th>
+            <th>Actions</th>
           </tr>
           <tr>
-            <td>183</td>
+            <td>Ariana Grande</td>
             <td>John Doe</td>
             <td>11-7-2014</td>
             <td><span class="label label-success">Approved</span></td>
@@ -143,9 +146,18 @@
   </div>
   <div class="col-md-2">
     <div class="box box-primary">
+     <div class="box-header with-border">
+        <h3 class="box-title">Profile</h3>
+         <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+          </button>
+          <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i>
+          </button>
+        </div>
+      </div>
       <div class="box-body box-profile">
         <img class="profile-user-img img-responsive img-circle" src="../../dist/img/user4-128x128.jpg" alt="User profile picture">
-
+        
         <h3 class="profile-username text-center">Admin</h3>
 
         <p class="text-muted text-center">Role: Admin</p>

@@ -26,14 +26,14 @@
   <![endif]-->
 </head>
 <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
-<body class="hold-transition skin-blue layout-top-nav">
+<body class="hold-transition skin-purple layout-top-nav">
   <div class="wrapper">
 
     <header class="main-header">
       <nav class="navbar navbar-static-top">
         <div class="container">
           <div class="navbar-header">
-          <a href="{{URL::to('/')}}" class="navbar-brand"><b>Music</b>X</a>
+            <a href="{{URL::to('/')}}" class="navbar-brand"><b>Music</b>X</a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
               <i class="fa fa-bars"></i>
             </button>
@@ -42,12 +42,12 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
             <ul class="nav navbar-nav">
-            
+
               <li><a href="/lyrics">Lyrics</a></li>
               <li><a href="/videos">Videos</a></li>
               <li><a href="/news">News</a>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Music <span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle " data-toggle="dropdown">Music <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                     <li><a href="#">Artists</a></li>
                     <li><a href="#">All Songs</a></li>
@@ -66,11 +66,8 @@
               <li><a href="/admin">admin menu</a></li>       
 
             </ul>
-            <form class="navbar-form navbar-left" role="search">
-              <div class="form-group">
-                <input type="text" class="form-control" id="navbar-search-input" placeholder="Search">
-              </div>
-            </form>
+
+
           </div>
           <!-- /.navbar-collapse -->
           <!-- Navbar Right Menu -->
@@ -111,19 +108,27 @@
                     </div>
                   </li>
                 </ul>
+                <li class="dropdown notifications-menu">
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="fa fa-cog fa-spin fa-1x fa-fw"></i><span>Layout</span>
+                  <span class="label label-warning">7</span>
+                </a>
+
+
               </li>
-            </ul>
-          </div>
-          <!-- /.navbar-custom-menu -->
+            </li>
+          </ul>
         </div>
-        <!-- /.container-fluid -->
-      </nav>
-    </header>
-    <!-- Full Width Column -->
-    <div class="content-wrapper">
-      <div class="container-fluid">
-        <!-- Content Header (Page header) -->
+        <!-- /.navbar-custom-menu -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+  </header>
+  <!-- Full Width Column -->
+  <div class="content-wrapper">
+    <div class="container-fluid">
+      <!-- Content Header (Page header) -->
 
 
-        <!-- Main content -->
-        <section class="content">
+      <!-- Main content -->
+      <section class="content">
