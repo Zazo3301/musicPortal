@@ -64,10 +64,10 @@
               <li><a href="/lyrics"><i class="fa fa-file-text-o fa-fw margin-icon" aria-hidden="true"></i>Lyrics</a></li>
               <li><a href="/videos"><i class="fa fa-video-camera fa-fw margin-icon" aria-hidden="true"></i>Videos</a></li>
               <li><a href="/news"><i class="fa fa-newspaper-o fa-fw margin-icon" aria-hidden="true"></i>News</a>
-
+                
 
               </li>
-
+ <li><a href="/profile"><i class="fa fa-user fa-fw margin-icon" aria-hidden="true"></i>Profile</a></li>
               <li><a href="/contact"><i class="fa fa-envelope-o fa-fw margin-icon" aria-hidden="true"></i>Contact</a></li>
               <li><a href="/admin">admin menu</a></li>       
 

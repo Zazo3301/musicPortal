@@ -160,7 +160,46 @@
             </div>
           </div>
           <div class="box-body box-profile">
-            Test
+            <ul class="products-list product-list-in-box">
+                <li class="item small">
+                  
+                
+                    <a href="javascript:void(0)" class="product-title">Samsung TV - long song name test test test test
+                      <span class="label label-success pull-right"><i class="fa fa-eye fa-fw border-icon" aria-hidden="true"></i>1200</span></a>
+                       
+                 
+                </li>
+              <li class="item small">
+                  
+                
+                    <a href="javascript:void(0)" class="product-title">Samsung TV
+                      <span class="label label-success pull-right"><i class="fa fa-eye fa-fw border-icon" aria-hidden="true"></i>1200</span></a>
+                       
+                 
+                </li><li class="item small">
+                  
+                
+                    <a href="javascript:void(0)" class="product-title">Samsung TV
+                      <span class="label label-success pull-right"><i class="fa fa-eye fa-fw border-icon" aria-hidden="true"></i>1200</span></a>
+                       
+                 
+                </li><li class="item small">
+                  
+                
+                    <a href="javascript:void(0)" class="product-title">Samsung TV
+                      <span class="label label-success pull-right"><i class="fa fa-eye fa-fw border-icon" aria-hidden="true"></i>1200</span></a>
+                       
+                 
+                </li><li class="item small">
+                  
+                
+                    <a href="javascript:void(0)" class="product-title">Samsung TV
+                      <span class="label label-success pull-right"><i class="fa fa-eye fa-fw border-icon" aria-hidden="true"></i>1200</span></a>
+                       
+                 
+                </li>
+                <!-- /.item -->
+              </ul>
           </div>
 
           <!-- /.box-body -->
